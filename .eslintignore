@@ -1,0 +1,12 @@
+!.eslintrc.js
+**/coverage/**
+**/node_modules/**
+**/vendor/**
+bin/
+docs/
+examples/react-native
+flow-typed/**
+packages/*/build/**
+website/
+**/third-party/**
+scripts/eslint/rules/sort-imports.js
