@@ -52,7 +52,7 @@ const fixedWidth = function(str/*: string*/) {
     .concat(lastString)
     .join('\n');
 };
-
+  
 function getPackageName(file /*: string */) {
   return path.relative(PACKAGES_DIR, file).split(path.sep)[0];
 }
@@ -136,3 +136,4 @@ if (files.length) {
   getPackages().forEach(buildPackage);
   process.stdout.write('\n');
 }
+   

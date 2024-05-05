@@ -22,7 +22,7 @@ async function main() {
     Array.from(newContentByFile.entries(), ([path, content]) =>
       fsPromises.writeFile(path, content),
     ),
-  );
+  );  
 }
 
 main().catch(error => console.error(error));

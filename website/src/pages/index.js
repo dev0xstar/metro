@@ -17,7 +17,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import classnames from 'classnames';
 import React from 'react';
-import GitHubButton from 'react-github-btn';
+import GitHubButton from 'react-github-btn';  
 
 const contents = [
   {

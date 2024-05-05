@@ -8,7 +8,7 @@
  * @format
  */
 
-declare module 'jest-snapshot-serializer-raw' {
+declare module 'jest-snapshot-serializer-raw' { 
   declare opaque type Wrapper;
   declare export function wrap(value: string): Wrapper;
   declare export function test(value: mixed): boolean;
